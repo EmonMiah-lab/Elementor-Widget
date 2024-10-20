@@ -1,0 +1,24 @@
+.custom-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+.custom-form input,
+.custom-form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.custom-form input[type="submit"] {
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+}
+.custom-form input[type="submit"]:hover {
+    opacity: 0.9;
+}
